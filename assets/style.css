@@ -24,15 +24,29 @@ div {
     justify-content: center;
     flex-wrap: wrap;
 }
+.top {
+    height: 250px;
+}
+
+.bottom {
+    height: 350px;
+}
 
 div h1 {
     color: violet;
     width: 380px;
     height: 25px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: -20px;
 }
 
 div p {
     font-size: 10px;
     color: violet;
+}
+
+code {
+    background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
 }
 
