@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #363333;
+}
+
+h1 {
+    color: violet;
+}
+
+p {
+    color: #fff;
+}
+
+div {
+    width: 400px;
+    height: 300px;
+    border: 2px dotted white;
+    margin: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div h1 {
+    color: violet;
+    width: 380px;
+    height: 25px;
+}
+
+div p {
+    font-size: 10px;
+    color: violet;
+}
+
